@@ -111,28 +111,10 @@ fun BusinessCard() {
                         .width(20.dp)
                 )
                 Text(
-                    text = "085211638311",
+                    text = "+6285211638311",
                     modifier = Modifier.padding(start = 16.dp),
                     color = Color.Black
 
-                )
-            }
-            Row(modifier = Modifier
-                .fillMaxWidth()
-                .padding(start = 40.dp),)
-            {
-                val icon2 = painterResource(id = R.drawable.gmail)
-                Image(
-                    painter = icon2,
-                    contentDescription = null,
-                    modifier = Modifier.padding(start = 60.dp)
-                        .height(20.dp)
-                        .width(20.dp)
-                )
-                Text(
-                    text = "kadekastriyani@gmail.com",
-                    modifier = Modifier.padding(start = 16.dp),
-                    color = Color.Black
                 )
             }
             Row(modifier = Modifier
@@ -149,6 +131,24 @@ fun BusinessCard() {
                 )
                 Text(
                     text = "@astriyanika",
+                    modifier = Modifier.padding(start = 16.dp),
+                    color = Color.Black
+                )
+            }
+            Row(modifier = Modifier
+                .fillMaxWidth()
+                .padding(start = 40.dp),)
+            {
+                val icon2 = painterResource(id = R.drawable.gmail)
+                Image(
+                    painter = icon2,
+                    contentDescription = null,
+                    modifier = Modifier.padding(start = 60.dp)
+                        .height(20.dp)
+                        .width(20.dp)
+                )
+                Text(
+                    text = "kadekastriyani@gmail.com",
                     modifier = Modifier.padding(start = 16.dp),
                     color = Color.Black
                 )
